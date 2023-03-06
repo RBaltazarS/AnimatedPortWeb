@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--TITLE-->
+  <title>Portifolio Pessoal 2023.1</title>
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!--NAVBAR-->
+    <nav>
+      <div class="logo">Baltazar<b>®</b></div>
+      <ul class="navItems">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Currículo</a></li>
+      </ul>
+      <!--REDES SOCIAIS-->
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </nav>
+    <!--WRAPPER CONTEÚDO GERAL-->
+    <div class="wrapper">
+      <div class="cols cols0">
+        <span class="topline">Olá</span>
+        <h1>I' <span class="multiText"></span></h1>
+        <p>Desenvolvedor Web: JavaScrips, ReactJs!</p>
+        <div class="btns">
+          <button>Download CV</button>
+          <button>Linkedin</button>
+        </div>
+      </div>
+      <div class="cols cols1">
+        <div class="imgbox">
+          <img src="/img/profilePic3.png">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--SCRIPT-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multiText",{
+    strings : ["Coder", "Web Developer", "Frontend"],
+    loop : true,
+    typeSpeed : 100,
+    backSpeed : 80,
+    backDelay : 1500
+  })
+  </script>
+</body>
+</html>
